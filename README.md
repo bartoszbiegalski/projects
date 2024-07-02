@@ -1,10 +1,9 @@
 ## My projects list
 
 - [JavaBasketDistributor](#JavaBasketDistributor)
-- [MP3 cutter](#MP3 cutter)
+- [MP3-cutter](#MP3-cutter)
 - [go-game](#go-game)
 - [parcelWorker](#parcelWorker)
-- 
 ## JavaBasketDistributor
 
 Project made for Ocado's summer trainee test, which consist of creating an optimal basket for Ocado products. Task made in Java.
