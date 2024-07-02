@@ -1,0 +1,3 @@
+/home/bartek/Documents/work/parcelWorker/cmake-build-debug/CMakeFiles/parcelWorker.dir
+/home/bartek/Documents/work/parcelWorker/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bartek/Documents/work/parcelWorker/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,13 @@
+# ninja log v6
+1	18	1719854040278355910	CMakeFiles/parcelWorker.dir/Fetcher.cpp.o	442b03639ec9e0d4
+2	25	1719854040278355910	CMakeFiles/parcelWorker.dir/ParcelPoint.cpp.o	81c8169104b6e699
+1	339	1719854040278355910	CMakeFiles/parcelWorker.dir/ParcelEdge.cpp.o	61cc3841e14cae61
+2	422	1719854040278355910	CMakeFiles/parcelWorker.dir/PowiatFetcher.cpp.o	b946a4c0898af185
+2	556	1719854040278355910	CMakeFiles/parcelWorker.dir/PointVector.cpp.o	4d9768f76799f1e9
+1	617	1719854040278355910	CMakeFiles/parcelWorker.dir/main.cpp.o	74c0795c84cc5d7c
+3	642	1719854040278355910	CMakeFiles/parcelWorker.dir/PowiatReader.cpp.o	83e412c23622c0ee
+1	2422	1719854040278355910	CMakeFiles/parcelWorker.dir/KDTree.cpp.o	e20606796dc180b6
+4	18	1719856126393930430	CMakeFiles/parcelWorker.dir/ParcelPoint.cpp.o	81c8169104b6e699
+4	256	1719856126393930430	CMakeFiles/parcelWorker.dir/ParcelEdge.cpp.o	61cc3841e14cae61
+5	377	1719856126397930419	CMakeFiles/parcelWorker.dir/PowiatReader.cpp.o	83e412c23622c0ee
+4	454	1719856126393930430	CMakeFiles/parcelWorker.dir/main.cpp.o	74c0795c84cc5d7c

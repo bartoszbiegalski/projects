@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding="UTF-8" ?>
+<wfs:FeatureCollection
+   xmlns:ms="http://mapserver.gis.umn.edu/mapserver"
+   xmlns:gml="http://www.opengis.net/gml"
+   xmlns:wfs="http://www.opengis.net/wfs"
+   xmlns:ogc="http://www.opengis.net/ogc"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://mapserver.gis.umn.edu/mapserver https://wms.sip.piekary.pl/piekary-egib?SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=dzialki&amp;OUTPUTFORMAT=SFE_XMLSCHEMA  http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd">
+      <gml:boundedBy>
+      	<gml:Envelope srsName="EPSG:2180">
+      		<gml:lowerCorner>273721.815843 493920.912725</gml:lowerCorner>
+      		<gml:upperCorner>283768.069961 502953.821590</gml:upperCorner>
+      	</gml:Envelope>
+      </gml:boundedBy>
+    <gml:featureMember>
+      <ms:dzialki gml:id="dzialki.247101_1.0005.AR_3-8.2731/123">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:2180">
+        		<gml:lowerCorner>273863.587427 500332.789966</gml:lowerCorner>
+        		<gml:upperCorner>273969.430595 500377.645132</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:msGeometry>
+          <gml:Polygon srsName="EPSG:2180">
+            <gml:exterior>
+              <gml:LinearRing>
+                <gml:posList srsDimension="2">273863.587427 500368.814650 273961.576491 500377.645132 273969.430595 500340.084755 273875.774485 500332.789966 273869.654297 500350.926876 273863.587427 500368.814650 </gml:posList>
+              </gml:LinearRing>
+            </gml:exterior>
+          </gml:Polygon>
+        </ms:msGeometry>
+        <ms:NUMER_DZIALKI>2731/123</ms:NUMER_DZIALKI>
+        <ms:NAZWA_GMINY>Miasto Piekary Śląskie</ms:NAZWA_GMINY>
+        <ms:NUMER_JEDNOSTKI>247101_1</ms:NUMER_JEDNOSTKI>
+        <ms:NUMER_OBREBU>0005</ms:NUMER_OBREBU>
+        <ms:NAZWA_OBREBU>DĄBRÓWKA WIELKA</ms:NAZWA_OBREBU>
+        <ms:ID_DZIALKI>247101_1.0005.AR_3-8.2731/123</ms:ID_DZIALKI>
+        <ms:DATA>2023-12-06</ms:DATA>
+      </ms:dzialki>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:dzialki gml:id="dzialki.247101_1.0003.AR_1-12KAM.4823/8">
+        <gml:boundedBy>
+          <gml:Envelope srsName="EPSG:2180">
+            <gml:lowerCorner>277661.956194 498275.629651</gml:lowerCorner>
+            <gml:upperCorner>277706.205244 498311.826322</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <ms:msGeometry>
+          <gml:Polygon srsName="EPSG:2180">
+            <gml:exterior>
+              <gml:LinearRing>
+                <gml:posList srsDimension="2">277661.956194 498289.859939 277683.535585 498303.121425 277697.700391 498311.826322 277706.205244 498297.474778 277670.421842 498275.629651 277661.956194 498289.859939 </gml:posList>
+              </gml:LinearRing>
+            </gml:exterior>
+          </gml:Polygon>
+        </ms:msGeometry>
+        <ms:NUMER_DZIALKI>4823/8</ms:NUMER_DZIALKI>
+        <ms:NAZWA_GMINY>Miasto Piekary Śląskie</ms:NAZWA_GMINY>
+        <ms:NUMER_JEDNOSTKI>247101_1</ms:NUMER_JEDNOSTKI>
+        <ms:NUMER_OBREBU>0003</ms:NUMER_OBREBU>
+        <ms:NAZWA_OBREBU>BRZOZOWICE KAMIEŃ</ms:NAZWA_OBREBU>
+        <ms:ID_DZIALKI>247101_1.0003.AR_1-12KAM.4823/8</ms:ID_DZIALKI>
+        <ms:DATA>2023-12-06</ms:DATA>
+      </ms:dzialki>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:dzialki gml:id="dzialki.247101_1.0002.AR_2-3BRZ.1452/8">
+        <gml:boundedBy>
+          <gml:Envelope srsName="EPSG:2180">
+            <gml:lowerCorner>278184.040670 497466.542815</gml:lowerCorner>
+            <gml:upperCorner>278201.864363 497483.997247</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <ms:msGeometry>
+          <gml:Polygon srsName="EPSG:2180">
+            <gml:exterior>
+              <gml:LinearRing>
+                <gml:posList srsDimension="2">278201.864363 497470.864919 278188.880173 497466.542815 278184.040670 497480.099707 278193.044736 497483.119042 278197.410343 497483.997247 278201.864363 497470.864919 </gml:posList>
+              </gml:LinearRing>
+            </gml:exterior>
+          </gml:Polygon>
+        </ms:msGeometry>
+        <ms:NUMER_DZIALKI>1452/8</ms:NUMER_DZIALKI>
+        <ms:NAZWA_GMINY>Miasto Piekary Śląskie</ms:NAZWA_GMINY>
+        <ms:NUMER_JEDNOSTKI>247101_1</ms:NUMER_JEDNOSTKI>
+        <ms:NUMER_OBREBU>0002</ms:NUMER_OBREBU>
+        <ms:NAZWA_OBREBU>PIEKARY WIELKIE</ms:NAZWA_OBREBU>
+        <ms:ID_DZIALKI>247101_1.0002.AR_2-3BRZ.1452/8</ms:ID_DZIALKI>
+        <ms:DATA>2023-12-06</ms:DATA>
+      </ms:dzialki>
+    </gml:featureMember>
+</wfs:FeatureCollection>
