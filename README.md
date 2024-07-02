@@ -4,8 +4,7 @@
 - [MP3-cutter](#MP3-cutter)
 - [go-game](#go-game)
 - [parcelWorker](#parcelWorker)
-- [fivePhilosophersProblem](#fivePhilosophersProblem)
-
+- 
 ## JavaBasketDistributor
 
 Project made for Ocado's summer trainee test, which consist of creating an optimal basket for Ocado products. Task made in Java.
@@ -21,8 +20,3 @@ Project made in coproduction with MJankoo. Functional board go game, gamemodes: 
 ## ParcelWorker
 
 Work in progress. Project focus on retriving geodetical data from gml and xml. Made in C++
-
-## fivePhilosophersProblem
-
-Project made for my studies. Uses Dijkstra solution for dining philosophers problem. Made in Ada, Go and Java.
-
