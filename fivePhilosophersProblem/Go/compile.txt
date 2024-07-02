@@ -1,0 +1,2 @@
+go run main.go 5 10000 | grep -n  "10000 meal" | awk -F ':' '{print $2 " in line: " $1}'
+

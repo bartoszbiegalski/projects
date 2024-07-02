@@ -1,0 +1,1 @@
+java main.java 5 100 | grep -n  "100 meal" | awk -F ':' '{print $2 " in line: " $1}'
