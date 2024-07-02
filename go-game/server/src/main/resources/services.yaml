@@ -1,0 +1,154 @@
+org.gogroup.game.infrastructure.inMemory.InMemoryGameRegistry:
+
+org.gogroup.game.userInterface.mjankoo.controller.LobbyController:
+  arguments:
+    - "@org.gogroup.game.application.ListRooms"
+    - "@org.gogroup.game.application.CreateGame"
+    - "@org.gogroup.game.application.JoinRoom"
+  tags:
+    - { name: "controller" }
+
+org.gogroup.game.userInterface.mjankoo.controller.GameController:
+  arguments:
+    - "@org.gogroup.game.application.LoadGame"
+    - "@org.gogroup.game.application.Move"
+    - "@org.gogroup.game.application.SkipTurn"
+  tags:
+    - { name: "controller" }
+
+org.gogroup.game.infrastructure.mjankoo.MJankooServerClientNotifier:
+  arguments:
+    - "@org.mjankoo.framework.requestHandler.Server"
+
+org.gogroup.game.domain.PawnGroupCollector:
+
+# Event subscribers
+org.gogroup.game.infrastructure.mjankoo.subscriber.ClientJoinedGameSubscriber:
+  arguments:
+    - "@org.gogroup.game.infrastructure.mjankoo.MJankooServerClientNotifier"
+  tags:
+    - { name: "event_subscriber" }
+
+org.gogroup.game.infrastructure.mjankoo.subscriber.ClientMovedSubscriber:
+  arguments:
+    - "@org.gogroup.game.infrastructure.mjankoo.MJankooServerClientNotifier"
+  tags:
+    - { name: "event_subscriber" }
+
+org.gogroup.game.infrastructure.mjankoo.subscriber.ClientSkippedTurnSubscriber:
+  arguments:
+    - "@org.gogroup.game.infrastructure.mjankoo.MJankooServerClientNotifier"
+  tags:
+    - { name: "event_subscriber" }
+
+org.gogroup.game.infrastructure.mjankoo.subscriber.GameFinishedSubscriber:
+  arguments:
+    - "@org.gogroup.game.infrastructure.mjankoo.MJankooServerClientNotifier"
+  tags:
+    - { name: "event_subscriber" }
+
+# Use Cases
+org.gogroup.game.application.ListRooms:
+  arguments:
+    - "@org.gogroup.game.infrastructure.inMemory.InMemoryGameRegistry"
+
+org.gogroup.game.application.CreateGame:
+  arguments:
+    - "@org.gogroup.game.infrastructure.inMemory.InMemoryGameRegistry"
+    - "@org.gogroup.game.domain.gameRule.PlayerTurnRule"
+
+org.gogroup.game.application.JoinRoom:
+  arguments:
+    - "@org.mjankoo.framework.eventDispatcher.EventDispatcher"
+    - "@org.gogroup.game.infrastructure.inMemory.InMemoryGameRegistry"
+
+org.gogroup.game.application.LoadGame:
+  arguments:
+    - "@org.gogroup.game.infrastructure.inMemory.InMemoryGameRegistry"
+
+org.gogroup.game.application.Move:
+  arguments:
+    - "@org.gogroup.game.infrastructure.inMemory.InMemoryGameRegistry"
+    - "@org.mjankoo.framework.eventDispatcher.EventDispatcher"
+
+org.gogroup.game.application.SkipTurn:
+  arguments:
+    - "@org.gogroup.game.infrastructure.inMemory.InMemoryGameRegistry"
+    - "@org.mjankoo.framework.eventDispatcher.EventDispatcher"
+
+# Rules
+org.gogroup.game.domain.gameRule.PlayerTurnRule:
+  arguments:
+    - "@org.gogroup.game.domain.gameRule.BusyFieldRule"
+
+org.gogroup.game.domain.gameRule.BusyFieldRule:
+  arguments:
+      - "@org.gogroup.game.domain.gameRule.BreathsRule"
+
+org.gogroup.game.domain.gameRule.EmptyRule:
+
+org.gogroup.game.domain.gameRule.BreathsRule:
+  arguments:
+    - "@org.gogroup.game.domain.gameRule.EmptyRule"
+    - "@org.gogroup.game.domain.PawnGroupCollector"
+
+#-----------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------- GAME RETROSPECTIVE ------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------
+
+org.gogroup.gameRetrospective.userInterface.mjankoo.controller.BoardStateController:
+  arguments:
+    - "@org.gogroup.gameRetrospective.application.GetBoardState"
+  tags:
+    - { name: "controller" }
+
+org.gogroup.gameRetrospective.userInterface.mjankoo.controller.GameController:
+  arguments:
+    - "@org.gogroup.gameRetrospective.application.GetPreviousGames"
+  tags:
+    - { name: "controller" }
+
+org.gogroup.gameRetrospective.application.GetPreviousGames:
+  arguments:
+    - "@org.gogroup.gameRetrospective.infrastructure.hibernate.HibernateMoveRepository"
+
+org.gogroup.gameRetrospective.application.GetBoardState:
+  arguments:
+    - "@org.gogroup.gameRetrospective.infrastructure.hibernate.HibernateMoveRepository"
+    - "@org.gogroup.game.domain.PawnGroupCollector"
+
+org.gogroup.gameRetrospective.infrastructure.hibernate.HibernateMoveRepository:
+  arguments:
+    - "@org.gogroup.gameRetrospective.infrastructure.hibernate.Connection"
+
+org.gogroup.gameRetrospective.infrastructure.hibernate.Connection:
+
+org.gogroup.gameRetrospective.infrastructure.mjankoo.subscriber.ClientMoveSubscriber:
+  arguments:
+    - "@org.gogroup.gameRetrospective.infrastructure.hibernate.HibernateMoveRepository"
+  tags:
+    - { name: "event_subscriber" }
+
+#-----------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------- GAME RETROSPECTIVE ------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------
+
+org.gogroup.bot.userInterface.mjankoo.controller.GameWithBotController:
+  arguments:
+    - "@org.gogroup.game.application.CreateGame"
+    - "@org.gogroup.bot.application.AddBotToGame"
+  tags:
+    - { name: "controller" }
+
+org.gogroup.bot.application.AddBotToGame:
+  arguments:
+    - "@org.gogroup.game.infrastructure.inMemory.InMemoryGameRegistry"
+
+org.gogroup.bot.domain.Bot:
+
+org.gogroup.bot.infrastructure.mjankoo.subscriber.ClientMovedSubscriber:
+  arguments:
+    - "@org.gogroup.bot.domain.Bot"
+    - "@org.gogroup.game.infrastructure.inMemory.InMemoryGameRegistry"
+  tags:
+    - { name: "event_subscriber" }

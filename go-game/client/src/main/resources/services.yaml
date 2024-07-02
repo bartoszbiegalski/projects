@@ -1,0 +1,111 @@
+org.gogroup.server.ServerConnector:
+    arguments:
+        - "@org.gogroup.server.Client"
+        - "@org.gogroup.server.responseConverter.JsonResponseConverter"
+
+org.gogroup.server.notificationReader.NotificationReader:
+    arguments:
+        - "@org.gogroup.server.Client"
+        - "@org.mjankoo.framework.eventDispatcher.EventDispatcher"
+
+org.gogroup.server.Client:
+
+org.gogroup.WindowManager:
+    arguments:
+        - "!window"
+
+org.gogroup.windows.MenuWindow:
+    arguments:
+        - "@org.gogroup.controllers.MenuController"
+    tags:
+        - {name: "window"}
+
+org.gogroup.controllers.MenuController:
+    arguments:
+        - "@org.gogroup.server.ServerConnector"
+    call:
+        - { method: 'setWindowManager', service: "org.gogroup.WindowManager" }
+
+org.gogroup.windows.GameModeWindow:
+    arguments:
+        - "@org.gogroup.controllers.GameModeController"
+    tags:
+        - {name: "window"}
+
+org.gogroup.controllers.GameModeController:
+    arguments:
+        - "@org.gogroup.server.ServerConnector"
+    call:
+        - { method: 'setWindowManager', service: "org.gogroup.WindowManager" }
+
+
+org.gogroup.windows.LobbyWindow:
+    arguments:
+        - "@org.gogroup.controllers.LobbyController"
+    tags:
+        - {name: "window"}
+
+org.gogroup.controllers.LobbyController:
+    arguments:
+        - "@org.gogroup.server.ServerConnector"
+    call:
+        - { method: 'setWindowManager', service: "org.gogroup.WindowManager" }
+
+org.gogroup.windows.LoadGameWindow:
+    arguments:
+        - "@org.gogroup.controllers.LoadGameWindowController"
+    tags:
+        - {name: "window"}
+
+org.gogroup.controllers.LoadGameWindowController:
+    arguments:
+        - "@org.gogroup.server.ServerConnector"
+    call:
+        - { method: 'setWindowManager', service: "org.gogroup.WindowManager" }
+
+
+org.gogroup.windows.GameWindow:
+    arguments:
+        - "@org.gogroup.controllers.GameController"
+    tags:
+        - {name: "window"}
+        - {name: "event_subscriber"}
+
+org.gogroup.subscriber.GameFinishedSubscriber:
+    arguments:
+        - "@org.gogroup.WindowManager"
+    tags:
+        - {name: "event_subscriber"}
+
+org.gogroup.windows.PreviousGameWindow:
+    arguments:
+        - "@org.gogroup.controllers.PreviousGameController"
+    tags:
+        - {name: "window"}
+
+org.gogroup.controllers.GameController:
+    arguments:
+        - "@org.gogroup.server.ServerConnector"
+    call:
+        - { method: 'setWindowManager', service: "org.gogroup.WindowManager" }
+
+org.gogroup.controllers.PreviousGameController:
+    arguments:
+        - "@org.gogroup.server.ServerConnector"
+    call:
+        - { method: 'setWindowManager', service: "org.gogroup.WindowManager" }
+
+org.gogroup.windows.EndGameWindow:
+    arguments:
+        - "@org.gogroup.controllers.EndGameWindowController"
+    tags:
+        - {name: "window"}
+
+org.gogroup.controllers.EndGameWindowController:
+    arguments:
+        - "@org.gogroup.server.ServerConnector"
+    call:
+        - { method: 'setWindowManager', service: "org.gogroup.WindowManager" }
+
+org.gogroup.server.responseConverter.JsonResponseConverter:
+
