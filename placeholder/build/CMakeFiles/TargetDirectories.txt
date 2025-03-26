@@ -1,0 +1,12 @@
+/home/bartek/Documents/projects/placeholder/build/CMakeFiles/test.dir
+/home/bartek/Documents/projects/placeholder/build/CMakeFiles/edit_cache.dir
+/home/bartek/Documents/projects/placeholder/build/CMakeFiles/rebuild_cache.dir
+/home/bartek/Documents/projects/placeholder/build/src/CMakeFiles/MyLibrary.dir
+/home/bartek/Documents/projects/placeholder/build/src/CMakeFiles/MyProject.dir
+/home/bartek/Documents/projects/placeholder/build/src/CMakeFiles/test.dir
+/home/bartek/Documents/projects/placeholder/build/src/CMakeFiles/edit_cache.dir
+/home/bartek/Documents/projects/placeholder/build/src/CMakeFiles/rebuild_cache.dir
+/home/bartek/Documents/projects/placeholder/build/tests/CMakeFiles/test_myproject.dir
+/home/bartek/Documents/projects/placeholder/build/tests/CMakeFiles/test.dir
+/home/bartek/Documents/projects/placeholder/build/tests/CMakeFiles/edit_cache.dir
+/home/bartek/Documents/projects/placeholder/build/tests/CMakeFiles/rebuild_cache.dir

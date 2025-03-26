@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_myproject.dir/test_main.cpp.o -o test_myproject  ../src/libMyLibrary.a /usr/lib/x86_64-linux-gnu/libgdal.so /usr/lib/x86_64-linux-gnu/libxml2.so -lxml++-2.6 -lxml2 -lglibmm-2.4 -lgobject-2.0 -lglib-2.0 -lsigc-2.0 /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a 
