@@ -187,6 +187,47 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/13/bits/ostream.tcc \
   /usr/include/c++/13/istream \
   /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/vector \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  ../src/file_handling/FileImport.cpp \
+  /usr/include/c++/13/memory \
+  /usr/include/c++/13/bits/stl_tempbuf.h \
+  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/13/bits/align.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/c++/13/bits/unique_ptr.h \
+  /usr/include/c++/13/bits/shared_ptr.h \
+  /usr/include/c++/13/bits/shared_ptr_base.h \
+  /usr/include/c++/13/bits/allocated_ptr.h \
+  /usr/include/c++/13/ext/aligned_buffer.h \
+  /usr/include/c++/13/ext/concurrence.h \
+  /usr/include/c++/13/bits/shared_ptr_atomic.h \
+  /usr/include/c++/13/bits/atomic_base.h \
+  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/13/backward/auto_ptr.h \
+  /usr/include/c++/13/pstl/glue_memory_defs.h \
+  /usr/include/c++/13/pstl/execution_defs.h \
+  /usr/include/tinyxml2.h \
+  /usr/include/c++/13/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/c++/13/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  ../include/file_handling/FileImport.hpp \
   /usr/include/libxml++-2.6/libxml++/libxml++.h \
   /usr/include/libxml++-2.6/libxml++/exceptions/internal_error.h \
   /usr/include/libxml++-2.6/libxml++/exceptions/exception.h \
@@ -198,20 +239,9 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
   /usr/include/glib-2.0/glib/gtypes.h \
   /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
   /usr/include/glib-2.0/glib/gmacros.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
   /usr/include/glib-2.0/glib/gversionmacros.h \
   /usr/include/glib-2.0/glib/glib-visibility.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
   /usr/include/glib-2.0/glib/garray.h \
   /usr/include/glib-2.0/glib/gasyncqueue.h \
   /usr/include/glib-2.0/glib/gthread.h \
@@ -339,8 +369,6 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
   /usr/include/libxml++-2.6/libxml++/noncopyable.h \
   /usr/include/c++/13/list \
   /usr/include/c++/13/bits/stl_list.h \
-  /usr/include/c++/13/bits/allocated_ptr.h \
-  /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/bits/list.tcc \
   /usr/include/c++/13/map \
   /usr/include/c++/13/bits/stl_tree.h \
@@ -348,11 +376,6 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/13/bits/stl_map.h \
   /usr/include/c++/13/bits/stl_multimap.h \
   /usr/include/c++/13/bits/erase_if.h \
-  /usr/include/c++/13/vector \
-  /usr/include/c++/13/bits/stl_uninitialized.h \
-  /usr/include/c++/13/bits/stl_vector.h \
-  /usr/include/c++/13/bits/stl_bvector.h \
-  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/libxml++-2.6/libxml++/attribute.h \
   /usr/include/libxml++-2.6/libxml++/nodes/commentnode.h \
   /usr/include/libxml++-2.6/libxml++/nodes/contentnode.h \
@@ -368,24 +391,6 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/13/deque \
   /usr/include/c++/13/bits/stl_deque.h \
   /usr/include/c++/13/bits/deque.tcc \
-  /usr/include/c++/13/memory \
-  /usr/include/c++/13/bits/stl_tempbuf.h \
-  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/13/bits/align.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /usr/include/c++/13/bits/unique_ptr.h \
-  /usr/include/c++/13/bits/shared_ptr.h \
-  /usr/include/c++/13/bits/shared_ptr_base.h \
-  /usr/include/c++/13/ext/concurrence.h \
-  /usr/include/c++/13/bits/shared_ptr_atomic.h \
-  /usr/include/c++/13/bits/atomic_base.h \
-  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/13/backward/auto_ptr.h \
-  /usr/include/c++/13/pstl/glue_memory_defs.h \
-  /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/libxml++-2.6/libxml++/parsers/textreader.h \
   /usr/include/libxml++-2.6/libxml++/nodes/entitydeclaration.h \
   /usr/include/libxml++-2.6/libxml++/nodes/xincludeend.h \
@@ -402,74 +407,18 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
   /usr/include/libxml++-2.6/libxml++/validators/schemavalidator.h \
   /usr/include/libxml++-2.6/libxml++/schema.h \
   /usr/include/libxml++-2.6/libxml++/validators/xsdvalidator.h \
-  /usr/include/libxml2/libxml/xmlschemas.h \
-  /usr/include/libxml2/libxml/xmlversion.h \
-  /usr/include/libxml2/libxml/xmlexports.h \
-  /usr/include/libxml2/libxml/tree.h \
-  /usr/include/libxml2/libxml/xmlstring.h \
-  /usr/include/libxml2/libxml/xmlregexp.h \
-  /usr/include/libxml2/libxml/dict.h \
-  /usr/include/libxml2/libxml/xmlmemory.h \
-  /usr/include/libxml2/libxml/threads.h \
-  /usr/include/libxml2/libxml/globals.h \
-  /usr/include/libxml2/libxml/parser.h \
-  /usr/include/libxml2/libxml/hash.h \
-  /usr/include/libxml2/libxml/valid.h \
-  /usr/include/libxml2/libxml/xmlerror.h \
-  /usr/include/libxml2/libxml/list.h \
-  /usr/include/libxml2/libxml/xmlautomata.h \
-  /usr/include/libxml2/libxml/entities.h \
-  /usr/include/libxml2/libxml/encoding.h \
-  /usr/include/iconv.h \
-  /usr/include/unicode/ucnv.h \
-  /usr/include/unicode/ucnv_err.h \
-  /usr/include/unicode/utypes.h \
-  /usr/include/unicode/umachine.h \
-  /usr/include/unicode/ptypes.h \
-  /usr/include/unicode/platform.h \
-  /usr/include/unicode/uconfig.h \
-  /usr/include/unicode/uvernum.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
-  /usr/include/unicode/urename.h \
-  /usr/include/unicode/uversion.h \
-  /usr/include/unicode/utf.h \
-  /usr/include/unicode/utf8.h \
-  /usr/include/unicode/utf16.h \
-  /usr/include/unicode/utf_old.h \
-  /usr/include/unicode/uenum.h \
-  /usr/include/unicode/localpointer.h \
-  /usr/include/libxml2/libxml/xmlIO.h \
-  /usr/include/libxml2/libxml/SAX2.h \
-  /usr/include/libxml2/libxml/xlink.h
+  ../include/file_handling/XMLDocument.hpp \
+  ../include/typedef.hpp \
+  ../include/exceptions/Exception.hpp \
+  ../src/process/XMLDataProcesser.cpp \
+  ../include/process/XMLDataProcesser.hpp
 
 
-/usr/include/libxml2/libxml/xlink.h:
+../include/process/XMLDataProcesser.hpp:
 
-/usr/include/libxml2/libxml/xmlIO.h:
+../src/process/XMLDataProcesser.cpp:
 
-/usr/include/unicode/localpointer.h:
-
-/usr/include/unicode/utf_old.h:
-
-/usr/include/unicode/utf16.h:
-
-/usr/include/unicode/utf8.h:
-
-/usr/include/unicode/utypes.h:
-
-/usr/include/unicode/ucnv.h:
-
-/usr/include/iconv.h:
-
-/usr/include/libxml2/libxml/xmlerror.h:
-
-/usr/include/libxml2/libxml/valid.h:
-
-/usr/include/libxml2/libxml/globals.h:
-
-/usr/include/libxml2/libxml/threads.h:
-
-/usr/include/libxml2/libxml/xmlstring.h:
+../include/typedef.hpp:
 
 /usr/include/libxml++-2.6/libxml++/validators/xsdvalidator.h:
 
@@ -481,9 +430,9 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/libxml++-2.6/libxml++/validators/validator.h:
 
-/usr/include/libxml2/libxml/xmlregexp.h:
-
 /usr/include/libxml++-2.6/libxml++/xsdschema.h:
+
+../include/file_handling/XMLDocument.hpp:
 
 /usr/include/libxml++-2.6/libxml++/schemabase.h:
 
@@ -492,32 +441,6 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 /usr/include/libxml++-2.6/libxml++/nodes/xincludestart.h:
 
 /usr/include/libxml++-2.6/libxml++/nodes/xincludeend.h:
-
-/usr/include/libxml++-2.6/libxml++/validators/schemavalidator.h:
-
-/usr/include/c++/13/pstl/execution_defs.h:
-
-/usr/include/c++/13/backward/auto_ptr.h:
-
-/usr/include/libxml++-2.6/libxml++/validators/relaxngvalidator.h:
-
-/usr/include/c++/13/bits/atomic_base.h:
-
-/usr/include/c++/13/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/13/ext/concurrence.h:
-
-/usr/include/c++/13/bits/shared_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
-
-/usr/include/c++/13/bits/align.h:
-
-/usr/include/c++/13/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/13/memory:
 
 /usr/include/c++/13/bits/deque.tcc:
 
@@ -541,15 +464,7 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/libxml++-2.6/libxml++/attribute.h:
 
-/usr/include/c++/13/bits/stl_bvector.h:
-
-/usr/include/c++/13/bits/stl_vector.h:
-
-/usr/include/c++/13/vector:
-
 /usr/include/c++/13/bits/stl_tree.h:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
 
 /usr/include/libxml++-2.6/libxml++/noncopyable.h:
 
@@ -559,11 +474,7 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/libxml++-2.6/libxml++/parsers/domparser.h:
 
-/usr/include/libxml++-2.6/libxml++/exceptions/parse_error.h:
-
 /usr/include/c++/13/bits/sstream.tcc:
-
-/usr/include/unicode/utf.h:
 
 /usr/include/glib-2.0/glib/deprecated/gthread.h:
 
@@ -581,11 +492,7 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/glib-2.0/glib/gtrashstack.h:
 
-/usr/include/libxml2/libxml/hash.h:
-
 /usr/include/glib-2.0/glib/gtimer.h:
-
-/usr/include/unicode/platform.h:
 
 /usr/include/glib-2.0/glib/gtestutils.h:
 
@@ -617,19 +524,11 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/glib-2.0/glib/gmessages.h:
 
-/usr/include/unicode/uversion.h:
-
 /usr/include/glib-2.0/glib/gmarkup.h:
 
 /usr/include/glib-2.0/glib/gmappedfile.h:
 
 /usr/include/glib-2.0/glib/gkeyfile.h:
-
-/usr/include/c++/13/bits/atomic_lockfree_defines.h:
-
-/usr/include/glib-2.0/glib/gpattern.h:
-
-/usr/include/glib-2.0/glib/gstrfuncs.h:
 
 /usr/include/glib-2.0/glib/gpoll.h:
 
@@ -651,17 +550,59 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/glib-2.0/glib/gdir.h:
 
-/usr/include/libxml++-2.6/libxml++/parsers/textreader.h:
-
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
-/usr/include/glib-2.0/glib/gdate.h:
-
 /usr/include/glib-2.0/glib/gconvert.h:
 
 /usr/include/glib-2.0/glib/gchecksum.h:
 
 /usr/include/glib-2.0/glib/gcharset.h:
+
+/usr/include/glib-2.0/glib/gbytes.h:
+
+/usr/include/glib-2.0/glib/gtimezone.h:
+
+/usr/include/glib-2.0/glib/gdatetime.h:
+
+/usr/include/glib-2.0/glib/gbookmarkfile.h:
+
+/usr/include/glib-2.0/glib/gvarianttype.h:
+
+/usr/include/glib-2.0/glib/gbase64.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/linux/close_range.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/usr/include/c++/13/bits/stl_map.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
 
@@ -685,13 +626,13 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/13/bits/predefined_ops.h:
 
+../include/exceptions/Exception.hpp:
+
 /usr/include/c++/13/bits/range_access.h:
 
 /usr/include/glib-2.0/glib/grcbox.h:
 
 /usr/include/c++/13/system_error:
-
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
 /usr/include/glib-2.0/glib/gqsort.h:
 
@@ -723,21 +664,15 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/unicode/urename.h:
-
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
+/usr/include/c++/13/memory:
+
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/libxml2/libxml/encoding.h:
-
-/usr/include/libxml2/libxml/xmlversion.h:
 
 /usr/include/c++/13/type_traits:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/libxml2/libxml/dict.h:
 
 /usr/include/glib-2.0/glib/glib-visibility.h:
 
@@ -748,6 +683,8 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/13/bits/shared_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -761,11 +698,15 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
 
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/time.h:
+
 /usr/include/c++/13/bits/memoryfwd.h:
 
 /usr/include/glib-2.0/glib/gatomic.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
 /usr/include/asm-generic/errno.h:
 
@@ -781,9 +722,9 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/locale.h:
 
-/usr/include/glib-2.0/glib/glib-typeof.h:
+/usr/include/c++/13/ext/aligned_buffer.h:
 
-/usr/include/libxml2/libxml/tree.h:
+/usr/include/glib-2.0/glib/glib-typeof.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
@@ -797,9 +738,9 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
-/usr/include/libxml2/libxml/entities.h:
+/usr/include/libxml++-2.6/libxml++/validators/schemavalidator.h:
 
-/usr/include/c++/13/bits/basic_ios.tcc:
+/usr/include/c++/13/pstl/execution_defs.h:
 
 /usr/include/libxml++-2.6/libxml++/attributedeclaration.h:
 
@@ -811,8 +752,6 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/usr/include/libxml2/libxml/list.h:
-
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
 /usr/include/c++/13/bits/basic_string.h:
@@ -822,6 +761,10 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
@@ -841,11 +784,7 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/13/bits/uses_allocator.h:
 
-/usr/include/unicode/uconfig.h:
-
 /usr/include/glib-2.0/glib/gtypes.h:
-
-/usr/include/unicode/uvernum.h:
 
 /usr/include/c++/13/pstl/pstl_config.h:
 
@@ -857,29 +796,27 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/13/clocale:
 
-/usr/include/c++/13/bits/stl_uninitialized.h:
-
-/usr/include/glib-2.0/glib/gthreadpool.h:
-
-/usr/include/c++/13/bits/new_allocator.h:
-
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/c++/13/bits/uses_allocator_args.h:
 
+/usr/include/libxml++-2.6/libxml++/validators/relaxngvalidator.h:
+
+/usr/include/c++/13/bits/atomic_base.h:
+
 /usr/include/c++/13/ostream:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
 ../src/main.cpp:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+../src/file_handling/FileImport.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
 
@@ -895,6 +832,12 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/13/ext/type_traits.h:
 
+/usr/include/libxml++-2.6/libxml++/parsers/textreader.h:
+
+/usr/include/glib-2.0/glib/gdate.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
 /usr/include/glib-2.0/glib/gasyncqueue.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
@@ -905,9 +848,9 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/13/iostream:
 
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
-
 /usr/include/c++/13/bits/allocator.h:
+
+/usr/include/c++/13/bits/stl_bvector.h:
 
 /usr/include/c++/13/map:
 
@@ -955,8 +898,6 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-/usr/include/unicode/umachine.h:
-
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
@@ -971,13 +912,11 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/13/typeinfo:
 
-/usr/include/unicode/uenum.h:
+/usr/include/glib-2.0/glib/goption.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/usr/include/glib-2.0/glib/gbitlock.h:
 
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
@@ -999,19 +938,17 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
+/usr/include/glib-2.0/glib/gpattern.h:
+
+/usr/include/glib-2.0/glib/gstrfuncs.h:
+
+/usr/include/c++/13/bits/atomic_lockfree_defines.h:
+
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/c++/13/bits/exception_ptr.h:
 
 /usr/include/c++/13/bits/istream.tcc:
-
-/usr/include/c++/13/bits/shared_ptr_base.h:
-
-/usr/include/wchar.h:
-
-/usr/include/libxml2/libxml/xmlmemory.h:
-
-/usr/include/libxml2/libxml/xmlexports.h:
 
 /usr/include/c++/13/bits/list.tcc:
 
@@ -1037,19 +974,21 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
+/usr/include/c++/13/bits/stl_multimap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
 /usr/include/c++/13/cstdio:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/unicode/ucnv_err.h:
 
 /usr/include/glib-2.0/glib/genviron.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/c++/13/bits/charconv.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
 /usr/include/c++/13/bits/exception.h:
 
@@ -1061,12 +1000,6 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/13/streambuf:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
 /usr/include/c++/13/cstddef:
 
 /usr/include/c++/13/bits/move.h:
@@ -1075,21 +1008,21 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/glib-2.0/glib/gerror.h:
 
-/usr/include/c++/13/bits/allocated_ptr.h:
-
 /usr/lib/x86_64-linux-gnu/libxml++-2.6/include/libxml++config.h:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
 
 /usr/include/c++/13/bit:
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
-/usr/include/libxml2/libxml/xmlschemas.h:
-
-/usr/include/c++/13/bits/unique_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
 /usr/include/c++/13/cerrno:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+
+/usr/include/libxml++-2.6/libxml++/exceptions/parse_error.h:
+
+../include/file_handling/FileImport.hpp:
 
 /usr/include/glib-2.0/glib/gstring.h:
 
@@ -1129,8 +1062,6 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/13/cstdlib:
 
-/usr/include/libxml2/libxml/parser.h:
-
 /usr/include/glib-2.0/glib/guuid.h:
 
 /usr/include/stdlib.h:
@@ -1141,17 +1072,17 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
+/usr/include/c++/13/bits/align.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/13/bits/unique_ptr.h:
+
 /usr/include/c++/13/bits/exception_defines.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/glib-2.0/glib/gtimezone.h:
-
-/usr/include/stdint.h:
-
-/usr/include/endian.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
@@ -1159,21 +1090,21 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/lib/x86_64-linux-gnu/glibmm-2.4/include/glibmmconfig.h:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
-
 /usr/include/c++/13/cwchar:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/unistd.h:
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/alloca.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
 
@@ -1183,9 +1114,9 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/asm-generic/errno-base.h:
 
-/usr/include/libxml2/libxml/SAX2.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
 
@@ -1196,8 +1127,6 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/libxml2/libxml/xmlautomata.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
 
@@ -1219,6 +1148,60 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/13/istream:
 
+/usr/include/c++/13/vector:
+
+/usr/include/glib-2.0/glib/gthreadpool.h:
+
+/usr/include/c++/13/bits/new_allocator.h:
+
+/usr/include/c++/13/bits/stl_uninitialized.h:
+
+/usr/include/c++/13/bits/stl_vector.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+/usr/include/endian.h:
+
+/usr/include/stdint.h:
+
+/usr/include/glib-2.0/glib/garray.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/include/c++/13/ext/concurrence.h:
+
+/usr/include/c++/13/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/usr/include/tinyxml2.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/c++/13/climits:
+
+/usr/include/c++/13/initializer_list:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/c++/13/bits/stream_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/13/stdlib.h:
+
+/usr/include/c++/13/cstring:
+
+/usr/include/string.h:
+
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/libxml++-2.6/libxml++/libxml++.h:
@@ -1227,33 +1210,9 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h:
 
-/usr/include/c++/13/initializer_list:
-
-/usr/include/limits.h:
-
-/usr/include/glib-2.0/glib/garray.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
-
-/usr/include/c++/13/bits/stream_iterator.h:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/c++/13/stdlib.h:
-
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/glib-2.0/glib/gversionmacros.h:
-
-/usr/include/string.h:
 
 /usr/include/c++/13/bits/vector.tcc:
 
@@ -1270,49 +1229,3 @@ src/CMakeFiles/MyProject.dir/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/13/bits/stl_pair.h:
 
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
-
-/usr/include/c++/13/bits/stl_map.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
-
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/linux/close_range.h:
-
-/usr/include/c++/13/bits/stl_multimap.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/usr/include/unicode/ptypes.h:
-
-/usr/include/glib-2.0/glib/gvarianttype.h:
-
-/usr/include/glib-2.0/glib/gbase64.h:
-
-/usr/include/glib-2.0/glib/gdatetime.h:
-
-/usr/include/glib-2.0/glib/goption.h:
-
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/usr/include/glib-2.0/glib/gbitlock.h:
-
-/usr/include/glib-2.0/glib/gbookmarkfile.h:
-
-/usr/include/glib-2.0/glib/gbytes.h:

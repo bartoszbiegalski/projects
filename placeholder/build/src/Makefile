@@ -154,53 +154,53 @@ MyProject/fast:
 	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyProject.dir/build.make src/CMakeFiles/MyProject.dir/build
 .PHONY : MyProject/fast
 
-loader/Import.o: loader/Import.cpp.o
-.PHONY : loader/Import.o
+file_handling/FileImport.o: file_handling/FileImport.cpp.o
+.PHONY : file_handling/FileImport.o
 
 # target to build an object file
-loader/Import.cpp.o:
-	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.o
-.PHONY : loader/Import.cpp.o
+file_handling/FileImport.cpp.o:
+	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o
+.PHONY : file_handling/FileImport.cpp.o
 
-loader/Import.i: loader/Import.cpp.i
-.PHONY : loader/Import.i
+file_handling/FileImport.i: file_handling/FileImport.cpp.i
+.PHONY : file_handling/FileImport.i
 
 # target to preprocess a source file
-loader/Import.cpp.i:
-	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.i
-.PHONY : loader/Import.cpp.i
+file_handling/FileImport.cpp.i:
+	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.i
+.PHONY : file_handling/FileImport.cpp.i
 
-loader/Import.s: loader/Import.cpp.s
-.PHONY : loader/Import.s
+file_handling/FileImport.s: file_handling/FileImport.cpp.s
+.PHONY : file_handling/FileImport.s
 
 # target to generate assembly for a file
-loader/Import.cpp.s:
-	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.s
-.PHONY : loader/Import.cpp.s
+file_handling/FileImport.cpp.s:
+	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.s
+.PHONY : file_handling/FileImport.cpp.s
 
-logic/RequestData.o: logic/RequestData.cpp.o
-.PHONY : logic/RequestData.o
+file_handling/XMLDocument.o: file_handling/XMLDocument.cpp.o
+.PHONY : file_handling/XMLDocument.o
 
 # target to build an object file
-logic/RequestData.cpp.o:
-	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o
-.PHONY : logic/RequestData.cpp.o
+file_handling/XMLDocument.cpp.o:
+	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o
+.PHONY : file_handling/XMLDocument.cpp.o
 
-logic/RequestData.i: logic/RequestData.cpp.i
-.PHONY : logic/RequestData.i
+file_handling/XMLDocument.i: file_handling/XMLDocument.cpp.i
+.PHONY : file_handling/XMLDocument.i
 
 # target to preprocess a source file
-logic/RequestData.cpp.i:
-	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.i
-.PHONY : logic/RequestData.cpp.i
+file_handling/XMLDocument.cpp.i:
+	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.i
+.PHONY : file_handling/XMLDocument.cpp.i
 
-logic/RequestData.s: logic/RequestData.cpp.s
-.PHONY : logic/RequestData.s
+file_handling/XMLDocument.s: file_handling/XMLDocument.cpp.s
+.PHONY : file_handling/XMLDocument.s
 
 # target to generate assembly for a file
-logic/RequestData.cpp.s:
-	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.s
-.PHONY : logic/RequestData.cpp.s
+file_handling/XMLDocument.cpp.s:
+	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.s
+.PHONY : file_handling/XMLDocument.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -226,6 +226,30 @@ main.cpp.s:
 	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyProject.dir/build.make src/CMakeFiles/MyProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+process/XMLDataProcesser.o: process/XMLDataProcesser.cpp.o
+.PHONY : process/XMLDataProcesser.o
+
+# target to build an object file
+process/XMLDataProcesser.cpp.o:
+	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o
+.PHONY : process/XMLDataProcesser.cpp.o
+
+process/XMLDataProcesser.i: process/XMLDataProcesser.cpp.i
+.PHONY : process/XMLDataProcesser.i
+
+# target to preprocess a source file
+process/XMLDataProcesser.cpp.i:
+	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.i
+.PHONY : process/XMLDataProcesser.cpp.i
+
+process/XMLDataProcesser.s: process/XMLDataProcesser.cpp.s
+.PHONY : process/XMLDataProcesser.s
+
+# target to generate assembly for a file
+process/XMLDataProcesser.cpp.s:
+	cd /home/bartek/Documents/projects/placeholder/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyLibrary.dir/build.make src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.s
+.PHONY : process/XMLDataProcesser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -237,15 +261,18 @@ help:
 	@echo "... test"
 	@echo "... MyLibrary"
 	@echo "... MyProject"
-	@echo "... loader/Import.o"
-	@echo "... loader/Import.i"
-	@echo "... loader/Import.s"
-	@echo "... logic/RequestData.o"
-	@echo "... logic/RequestData.i"
-	@echo "... logic/RequestData.s"
+	@echo "... file_handling/FileImport.o"
+	@echo "... file_handling/FileImport.i"
+	@echo "... file_handling/FileImport.s"
+	@echo "... file_handling/XMLDocument.o"
+	@echo "... file_handling/XMLDocument.i"
+	@echo "... file_handling/XMLDocument.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... process/XMLDataProcesser.o"
+	@echo "... process/XMLDataProcesser.i"
+	@echo "... process/XMLDataProcesser.s"
 .PHONY : help
 
 

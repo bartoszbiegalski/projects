@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/MyProject.dir/main.cpp.o -o MyProject  libMyLibrary.a -lxml++-2.6 -lxml2 -lglibmm-2.4 -lgobject-2.0 -lglib-2.0 -lsigc-2.0 /usr/lib/x86_64-linux-gnu/libgdal.so /usr/lib/x86_64-linux-gnu/libxml2.so 
+/usr/bin/c++ CMakeFiles/MyProject.dir/main.cpp.o -o MyProject  libMyLibrary.a -lxml++-2.6 -lxml2 -lglibmm-2.4 -lgobject-2.0 -lglib-2.0 -lsigc-2.0 /usr/lib/x86_64-linux-gnu/libtinyxml2.so /usr/lib/x86_64-linux-gnu/libgdal.so /usr/lib/x86_64-linux-gnu/libxml2.so 

@@ -95,6 +95,7 @@ tests/test_myproject: tests/CMakeFiles/test_myproject.dir/build.make
 tests/test_myproject: src/libMyLibrary.a
 tests/test_myproject: /usr/lib/x86_64-linux-gnu/libgdal.so
 tests/test_myproject: /usr/lib/x86_64-linux-gnu/libxml2.so
+tests/test_myproject: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 tests/test_myproject: /usr/lib/x86_64-linux-gnu/libgtest_main.a
 tests/test_myproject: /usr/lib/x86_64-linux-gnu/libgtest.a
 tests/test_myproject: tests/CMakeFiles/test_myproject.dir/link.txt

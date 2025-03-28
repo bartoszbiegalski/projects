@@ -1,15 +1,25 @@
 add_library(MyLibrary STATIC
-    logic/RequestData.cpp
-    loader/Import.cpp
+    process/XMLDataProcesser.cpp
+    file_handling/FileImport.cpp
+    file_handling/XMLDocument.cpp
 )
 
-target_include_directories(MyLibrary PUBLIC ${LIBXMLXX_INCLUDE_DIRS})
-target_link_libraries(MyLibrary PUBLIC ${LIBXMLXX_LIBRARIES})
+target_include_directories(MyLibrary PUBLIC
+    ${LIBXMLXX_INCLUDE_DIRS}
+    ${TinyXML2_INCLUDE_DIRS}
+    ${PROJECT_SOURCE_DIR}/include
+)
 
-target_link_libraries(MyLibrary PUBLIC GDAL::GDAL)
-target_link_libraries(MyLibrary PUBLIC LibXml2::LibXml2)
+# Linkowanie bibliotek
+target_link_libraries(MyLibrary PUBLIC 
+    ${LIBXMLXX_LIBRARIES}  # libxml++
+    ${TinyXML2_LIBRARIES}   # TinyXML2
+    GDAL::GDAL             # GDAL
+    LibXml2::LibXml2       # LibXml2
+)
 
-target_include_directories(MyLibrary PUBLIC ${PROJECT_SOURCE_DIR}/include)
-
+# Dodaj główny plik wykonywalny
 add_executable(MyProject main.cpp)
+
+# Linkowanie do biblioteki statycznej MyLibrary
 target_link_libraries(MyProject PRIVATE MyLibrary)

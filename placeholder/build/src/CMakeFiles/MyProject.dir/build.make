@@ -93,6 +93,7 @@ MyProject_EXTERNAL_OBJECTS =
 src/MyProject: src/CMakeFiles/MyProject.dir/main.cpp.o
 src/MyProject: src/CMakeFiles/MyProject.dir/build.make
 src/MyProject: src/libMyLibrary.a
+src/MyProject: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 src/MyProject: /usr/lib/x86_64-linux-gnu/libgdal.so
 src/MyProject: /usr/lib/x86_64-linux-gnu/libxml2.so
 src/MyProject: src/CMakeFiles/MyProject.dir/link.txt

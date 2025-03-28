@@ -1,10 +1,32 @@
 #include <iostream>
-#include <libxml++/libxml++.h>
-#include <libxml/xmlschemas.h> // Funkcje walidacji XSD
+#include <vector>
 
+#include "file_handling/FileImport.cpp"
+#include "process/XMLDataProcesser.cpp"
+
+int main(int argc, char *argv[])
+{
+    FileImport fi;
+    std::vector<std::string> lala;
+    lala.push_back("assets/dane-BDOT500.gml");
+    fi.importFiles(lala);
+
+    XMLDataProcesser dp;
+
+    dp.divideDocument(fi.getDocuments()[0], fi.getDocuments()[0]->getNamespaceMap());
+
+    //const std::vector<std::unique_ptr<XMLDocument>>& documents = fi.getDocuments();
+    //documents[0]->printXMLDocument();
+
+    //XMLDataProcesser dp;
+    //dp.divideDocument(documents[0], documents[0]->getNamespaceMap());
+    //XMLDataRetriver dr(fi.getDocuments());
+    //dr.divideDocument();
+}
+/*
 bool validate_with_xsd(const std::string& gml_file, const std::string& xsd_file) {
     xmlSchemaParserCtxtPtr schema_parser_ctxt = xmlSchemaNewParserCtxt(xsd_file.c_str());
-    
+
     if (!schema_parser_ctxt) {
         std::cerr << "Nie można utworzyć kontekstu parsera XSD!" << std::endl;
         return false;
@@ -17,7 +39,6 @@ bool validate_with_xsd(const std::string& gml_file, const std::string& xsd_file)
         std::cerr << "Nie można wczytać schematu XSD!" << std::endl;
         return false;
     }
-
     std::cout<<"tworze kontekst walidatora\n";
     // Stwórz kontekst walidatora
     xmlSchemaValidCtxtPtr valid_ctxt = xmlSchemaNewValidCtxt(schema);
@@ -65,3 +86,4 @@ int main(int argc, char* argv[]) {
     bool is_valid = validate_with_xsd(gml_file, xsd_file);
     return is_valid ? 0 : 1;
 }
+*/

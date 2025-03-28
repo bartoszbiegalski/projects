@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bartek/Documents/projects/placeholder/src/loader/Import.cpp" "src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.o" "gcc" "src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.o.d"
-  "/home/bartek/Documents/projects/placeholder/src/logic/RequestData.cpp" "src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o" "gcc" "src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o.d"
+  "/home/bartek/Documents/projects/placeholder/src/file_handling/FileImport.cpp" "src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o" "gcc" "src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o.d"
+  "/home/bartek/Documents/projects/placeholder/src/file_handling/XMLDocument.cpp" "src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o" "gcc" "src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o.d"
+  "/home/bartek/Documents/projects/placeholder/src/process/XMLDataProcesser.cpp" "src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o" "gcc" "src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o.d"
   )
 
 # Targets to which this target links.

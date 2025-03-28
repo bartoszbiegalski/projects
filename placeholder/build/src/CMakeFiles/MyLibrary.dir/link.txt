@@ -1,2 +1,2 @@
-/usr/bin/ar qc libMyLibrary.a CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o CMakeFiles/MyLibrary.dir/loader/Import.cpp.o
+/usr/bin/ar qc libMyLibrary.a CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o
 /usr/bin/ranlib libMyLibrary.a

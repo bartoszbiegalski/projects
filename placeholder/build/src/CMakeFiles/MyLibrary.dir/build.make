@@ -69,47 +69,63 @@ include src/CMakeFiles/MyLibrary.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/MyLibrary.dir/flags.make
 
-src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o: src/CMakeFiles/MyLibrary.dir/flags.make
-src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o: ../src/logic/RequestData.cpp
-src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o: src/CMakeFiles/MyLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Documents/projects/placeholder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o"
-	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o -MF CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o.d -o CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o -c /home/bartek/Documents/projects/placeholder/src/logic/RequestData.cpp
+src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o: src/CMakeFiles/MyLibrary.dir/flags.make
+src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o: ../src/process/XMLDataProcesser.cpp
+src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o: src/CMakeFiles/MyLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Documents/projects/placeholder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o"
+	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o -MF CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o.d -o CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o -c /home/bartek/Documents/projects/placeholder/src/process/XMLDataProcesser.cpp
 
-src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.i"
-	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Documents/projects/placeholder/src/logic/RequestData.cpp > CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.i
+src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.i"
+	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Documents/projects/placeholder/src/process/XMLDataProcesser.cpp > CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.i
 
-src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.s"
-	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Documents/projects/placeholder/src/logic/RequestData.cpp -o CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.s
+src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.s"
+	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Documents/projects/placeholder/src/process/XMLDataProcesser.cpp -o CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.s
 
-src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.o: src/CMakeFiles/MyLibrary.dir/flags.make
-src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.o: ../src/loader/Import.cpp
-src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.o: src/CMakeFiles/MyLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Documents/projects/placeholder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.o"
-	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.o -MF CMakeFiles/MyLibrary.dir/loader/Import.cpp.o.d -o CMakeFiles/MyLibrary.dir/loader/Import.cpp.o -c /home/bartek/Documents/projects/placeholder/src/loader/Import.cpp
+src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o: src/CMakeFiles/MyLibrary.dir/flags.make
+src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o: ../src/file_handling/FileImport.cpp
+src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o: src/CMakeFiles/MyLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Documents/projects/placeholder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o"
+	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o -MF CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o.d -o CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o -c /home/bartek/Documents/projects/placeholder/src/file_handling/FileImport.cpp
 
-src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyLibrary.dir/loader/Import.cpp.i"
-	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Documents/projects/placeholder/src/loader/Import.cpp > CMakeFiles/MyLibrary.dir/loader/Import.cpp.i
+src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.i"
+	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Documents/projects/placeholder/src/file_handling/FileImport.cpp > CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.i
 
-src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyLibrary.dir/loader/Import.cpp.s"
-	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Documents/projects/placeholder/src/loader/Import.cpp -o CMakeFiles/MyLibrary.dir/loader/Import.cpp.s
+src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.s"
+	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Documents/projects/placeholder/src/file_handling/FileImport.cpp -o CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.s
+
+src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o: src/CMakeFiles/MyLibrary.dir/flags.make
+src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o: ../src/file_handling/XMLDocument.cpp
+src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o: src/CMakeFiles/MyLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Documents/projects/placeholder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o"
+	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o -MF CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o.d -o CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o -c /home/bartek/Documents/projects/placeholder/src/file_handling/XMLDocument.cpp
+
+src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.i"
+	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Documents/projects/placeholder/src/file_handling/XMLDocument.cpp > CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.i
+
+src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.s"
+	cd /home/bartek/Documents/projects/placeholder/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Documents/projects/placeholder/src/file_handling/XMLDocument.cpp -o CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.s
 
 # Object files for target MyLibrary
 MyLibrary_OBJECTS = \
-"CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o" \
-"CMakeFiles/MyLibrary.dir/loader/Import.cpp.o"
+"CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o" \
+"CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o" \
+"CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o"
 
 # External object files for target MyLibrary
 MyLibrary_EXTERNAL_OBJECTS =
 
-src/libMyLibrary.a: src/CMakeFiles/MyLibrary.dir/logic/RequestData.cpp.o
-src/libMyLibrary.a: src/CMakeFiles/MyLibrary.dir/loader/Import.cpp.o
+src/libMyLibrary.a: src/CMakeFiles/MyLibrary.dir/process/XMLDataProcesser.cpp.o
+src/libMyLibrary.a: src/CMakeFiles/MyLibrary.dir/file_handling/FileImport.cpp.o
+src/libMyLibrary.a: src/CMakeFiles/MyLibrary.dir/file_handling/XMLDocument.cpp.o
 src/libMyLibrary.a: src/CMakeFiles/MyLibrary.dir/build.make
 src/libMyLibrary.a: src/CMakeFiles/MyLibrary.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bartek/Documents/projects/placeholder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libMyLibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bartek/Documents/projects/placeholder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libMyLibrary.a"
 	cd /home/bartek/Documents/projects/placeholder/build/src && $(CMAKE_COMMAND) -P CMakeFiles/MyLibrary.dir/cmake_clean_target.cmake
 	cd /home/bartek/Documents/projects/placeholder/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyLibrary.dir/link.txt --verbose=$(VERBOSE)
 
