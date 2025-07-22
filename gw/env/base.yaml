@@ -1,0 +1,10 @@
+enivroment: "base"
+
+namespace_prefix: "xmlns"
+
+schema_location_prefix: "xsi"
+
+required_attributes:
+  xmlns: "gml"
+  xmlns: "xsi"
+  xsi: "schemaLocation"

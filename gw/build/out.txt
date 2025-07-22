@@ -1,0 +1,39 @@
+File name: ../data/aSzkoleniowy 2021.gml
+Avaible namespaces: 
+ - egb #362
+ - ges #376
+ - gml #0
+ - ot #298
+
+Specific info: 
+egb: 
+	egb:EGB_Budynek #51
+	egb:EGB_DzialkaEwidencyjna #29
+	egb:EGB_KonturKlasyfikacyjny #7
+	egb:EGB_KonturUzytkuGruntowego #14
+	egb:EGB_PunktGraniczny #80
+	egb:PrezentacjaGraficzna #181
+
+ges: 
+	ges:GES_InneUrzadzeniaTowarzyszace #19
+	ges:GES_PrzewodCieplowniczy #2
+	ges:GES_PrzewodElektroenergetyczny #14
+	ges:GES_PrzewodKanalizacyjny #12
+	ges:GES_PrzewodTelekomunikacyjny #29
+	ges:GES_PrzewodWodociagowy #21
+	ges:GES_Rzedna #31
+	ges:GES_UrzadzeniaSiecElektroenergetyczna #23
+	ges:GES_UrzadzeniaSiecKanalizacyjna #17
+	ges:GES_UrzadzeniaSiecTelekomunikacyjna #1
+	ges:GES_UrzadzeniaSiecWodociagowa #26
+	ges:PrezentacjaGraficzna #181
+
+ot: 
+	ot:OT_Budowle #12
+	ot:OT_Komunikacja #19
+	ot:OT_Ogrodzenia #53
+	ot:OT_Rzedna #71
+	ot:OT_Skarpa #1
+	ot:OT_ZagospodarowanieTerenu #24
+	ot:PrezentacjaGraficzna #118
+

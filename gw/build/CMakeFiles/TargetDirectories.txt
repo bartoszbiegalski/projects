@@ -1,0 +1,7 @@
+/home/bartek/Documents/Studia/sem7/eng/gw/build/CMakeFiles/gw.dir
+/home/bartek/Documents/Studia/sem7/eng/gw/build/CMakeFiles/edit_cache.dir
+/home/bartek/Documents/Studia/sem7/eng/gw/build/CMakeFiles/rebuild_cache.dir
+/home/bartek/Documents/Studia/sem7/eng/gw/build/CMakeFiles/list_install_components.dir
+/home/bartek/Documents/Studia/sem7/eng/gw/build/CMakeFiles/install.dir
+/home/bartek/Documents/Studia/sem7/eng/gw/build/CMakeFiles/install/local.dir
+/home/bartek/Documents/Studia/sem7/eng/gw/build/CMakeFiles/install/strip.dir
