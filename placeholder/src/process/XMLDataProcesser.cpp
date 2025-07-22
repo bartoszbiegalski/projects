@@ -12,8 +12,9 @@ std::vector<std::unique_ptr<XMLDocument>>& XMLDataProcesser::divideDocument(cons
     std::vector<std::unique_ptr<XMLDocument>> resultDocuments;
 
     for (auto &ns : namespaceMap) {
-        std::cout<<ns.first<<" "<<ns.second<<std::endl;
-    }
+        XMLRoot *newRoot = sourceDocument->getXmlRoot();
 
+    }
+        
     return resultDocuments;
 }

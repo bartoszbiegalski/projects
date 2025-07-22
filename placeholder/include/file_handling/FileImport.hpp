@@ -21,8 +21,8 @@ private:
 
 
 public:
-    void importFiles(std::vector <std::string> &fileNames);
+    void importXMLFiles(std::vector <std::string> &fileNames);
 
-    const std::vector<std::unique_ptr<XMLDocument>>& getDocuments() const;
+    const std::vector<std::unique_ptr<XMLDocument>>& getXMLDocuments() const;
    
 };

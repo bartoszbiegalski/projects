@@ -1,0 +1,13 @@
+<map id="xmlpp::Validator" name="xmlpp::Validator">
+<area shape="rect" id="Node000001" title="Base class for XML validators." alt="" coords="119,79,249,104"/>
+<area shape="rect" id="Node000003" href="$classxmlpp_1_1DtdValidator.html" title="XML DTD validator." alt="" coords="5,152,157,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,114,100,154,97,150,155,110"/>
+<area shape="rect" id="Node000004" href="$classxmlpp_1_1SchemaValidatorBase.html" title="Base class for schema validators." alt="" coords="181,152,395,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,110,272,150,269,154,211,114"/>
+<area shape="rect" id="Node000002" href="$classxmlpp_1_1NonCopyable.html" title="A base for classes which cannot be copied or moved." alt="" coords="105,5,263,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,44,187,79,181,79,181,44"/>
+<area shape="rect" id="Node000005" href="$classxmlpp_1_1RelaxNGValidator.html" title="RelaxNG schema validator." alt="" coords="97,225,284,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="263,188,208,227,205,223,260,183"/>
+<area shape="rect" id="Node000006" href="$classxmlpp_1_1XsdValidator.html" title="XSD schema validator." alt="" coords="309,225,462,251"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="316,183,371,223,368,227,313,188"/>
+</map>

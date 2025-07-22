@@ -1,0 +1,17 @@
+<map id="xmlpp::ContentNode" name="xmlpp::ContentNode">
+<area shape="rect" id="Node000001" title="Content node." alt="" coords="365,104,521,129"/>
+<area shape="rect" id="Node000004" href="$classxmlpp_1_1CdataNode.html" title="CData node." alt="" coords="620,5,763,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="471,94,516,65,568,40,619,25,621,30,570,44,518,70,474,98"/>
+<area shape="rect" id="Node000005" href="$classxmlpp_1_1CommentNode.html" title="Comment node." alt="" coords="607,55,776,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="520,99,569,89,625,77,626,83,570,94,521,104"/>
+<area shape="rect" id="Node000006" href="$classxmlpp_1_1EntityDeclaration.html" title="Entity declaration." alt="" coords="599,104,783,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="535,114,599,114,599,119,535,119"/>
+<area shape="rect" id="Node000007" href="$classxmlpp_1_1ProcessingInstructionNode.html" title=" " alt="" coords="569,153,813,179"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="521,129,570,139,626,151,625,156,569,145,520,135"/>
+<area shape="rect" id="Node000008" href="$classxmlpp_1_1TextNode.html" title="Text node." alt="" coords="625,203,757,228"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="474,135,518,163,570,189,626,204,624,209,568,194,516,168,471,140"/>
+<area shape="rect" id="Node000002" href="$classxmlpp_1_1Node.html" title="Represents XML Nodes." alt="" coords="212,104,317,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="331,114,365,114,365,119,331,119"/>
+<area shape="rect" id="Node000003" href="$classxmlpp_1_1NonCopyable.html" title="A base for classes which cannot be copied or moved." alt="" coords="5,104,164,129"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="178,114,212,114,212,119,178,119"/>
+</map>

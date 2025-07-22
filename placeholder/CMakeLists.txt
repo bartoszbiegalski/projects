@@ -10,8 +10,8 @@ include_directories(${PROJECT_SOURCE_DIR}/include) # todo !!!! change
 find_package(GDAL REQUIRED)
 find_package(LibXml2 REQUIRED)
 find_package(TinyXML2 REQUIRED)
-
 find_package(PkgConfig REQUIRED)
+
 pkg_check_modules(LIBXMLXX REQUIRED libxml++-2.6)
 
 add_subdirectory(src)

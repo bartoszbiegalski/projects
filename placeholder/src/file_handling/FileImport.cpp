@@ -44,7 +44,7 @@ std::unique_ptr<XMLDocument> FileImport::createXMLDocument(std::string documentN
         throw Exception("Błąd podczas parsowania pliku XML: " + documentName);
     }
 
-    xmlpp::Element* root = parser.get_document()->get_root_node();
+    XMLRoot* root = parser.get_document()->get_root_node();
 
     if (!root) {
         throw Exception("Nie znaleziono korzenia w pliku XML: " + documentName);
@@ -60,7 +60,7 @@ std::unique_ptr<XMLDocument> FileImport::createXMLDocument(std::string documentN
 
 
 
-void FileImport::importFiles(std::vector<std::string> &fileNames)
+void FileImport::importXMLFiles(std::vector<std::string> &fileNames)
 {
     for (auto &file : fileNames)
     {
@@ -68,7 +68,7 @@ void FileImport::importFiles(std::vector<std::string> &fileNames)
     }
 }
 
-const std::vector<std::unique_ptr<XMLDocument>> &FileImport::getDocuments() const
+const std::vector<std::unique_ptr<XMLDocument>> &FileImport::getXMLDocuments() const
 {
     return this->documents;
 }

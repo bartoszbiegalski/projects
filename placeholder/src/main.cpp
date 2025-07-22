@@ -6,14 +6,20 @@
 
 int main(int argc, char *argv[])
 {
-    FileImport fi;
-    std::vector<std::string> lala;
-    lala.push_back("assets/dane-BDOT500.gml");
-    fi.importFiles(lala);
+    //FileImport fi;
+    //std::vector<std::string> lala;
+    //lala.push_back("assets/dane-BDOT500.gml");
+    //fi.importXMLFiles(lala);
+    std::cout<<"lala\n";
+    //XMLDataProcesser dp;    
 
-    XMLDataProcesser dp;
 
-    dp.divideDocument(fi.getDocuments()[0], fi.getDocuments()[0]->getNamespaceMap());
+
+
+
+    //NamespaceMap nm;
+    //nm.insert({"xmlns:egb", "ewidencjaGruntowIBudynkow:1.0"});
+    //dp.divideDocument(fi.getXMLDocuments()[0], nm);
 
     //const std::vector<std::unique_ptr<XMLDocument>>& documents = fi.getDocuments();
     //documents[0]->printXMLDocument();

@@ -3,7 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include/libxml++-2.6"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",

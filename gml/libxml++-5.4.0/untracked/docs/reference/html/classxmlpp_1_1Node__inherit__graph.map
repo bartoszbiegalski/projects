@@ -1,0 +1,31 @@
+<map id="xmlpp::Node" name="xmlpp::Node">
+<area shape="rect" id="Node000001" title="Represents XML Nodes." alt="" coords="212,252,317,277"/>
+<area shape="rect" id="Node000003" href="$classxmlpp_1_1Attribute.html" title="Represents an XML attribute node or attribute declaration." alt="" coords="389,55,517,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,240,437,78,441,82,290,243"/>
+<area shape="rect" id="Node000006" href="$classxmlpp_1_1ContentNode.html" title="Content node." alt="" coords="375,177,531,203"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="299,243,364,212,399,200,400,205,366,216,301,248"/>
+<area shape="rect" id="Node000012" href="$classxmlpp_1_1Element.html" title="Element nodes have attributes as well as child nodes." alt="" coords="390,227,515,252"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="331,253,389,245,390,250,332,258"/>
+<area shape="rect" id="Node000013" href="$classxmlpp_1_1EntityReference.html" title="Entity references refer to previously declared entities." alt="" coords="365,276,540,301"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="332,270,366,275,365,280,331,276"/>
+<area shape="rect" id="Node000014" href="$classxmlpp_1_1XIncludeEnd.html" title="XIncludeEnd node." alt="" coords="377,325,528,351"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="302,282,366,312,400,323,399,328,364,316,300,286"/>
+<area shape="rect" id="Node000015" href="$classxmlpp_1_1XIncludeStart.html" title="XIncludeStart node." alt="" coords="373,375,532,400"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="286,287,321,325,367,361,392,372,389,377,364,366,317,329,282,290"/>
+<area shape="rect" id="Node000002" href="$classxmlpp_1_1NonCopyable.html" title="A base for classes which cannot be copied or moved." alt="" coords="5,252,164,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,262,212,262,212,267,178,267"/>
+<area shape="rect" id="Node000004" href="$classxmlpp_1_1AttributeDeclaration.html" title="Represents the default value of an attribute of an XML element node." alt="" coords="609,5,811,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="530,50,642,28,643,33,531,55"/>
+<area shape="rect" id="Node000005" href="$classxmlpp_1_1AttributeNode.html" title="Represents an explicit attribute of an XML element node." alt="" coords="629,55,791,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="530,65,629,65,629,70,530,70"/>
+<area shape="rect" id="Node000007" href="$classxmlpp_1_1CdataNode.html" title="CData node." alt="" coords="639,104,781,129"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="496,170,587,138,637,126,639,131,589,143,498,175"/>
+<area shape="rect" id="Node000008" href="$classxmlpp_1_1CommentNode.html" title="Comment node." alt="" coords="625,153,795,179"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="544,179,625,171,625,177,545,184"/>
+<area shape="rect" id="Node000009" href="$classxmlpp_1_1EntityDeclaration.html" title="Entity declaration." alt="" coords="618,203,802,228"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="544,196,618,204,617,209,544,202"/>
+<area shape="rect" id="Node000010" href="$classxmlpp_1_1ProcessingInstructionNode.html" title=" " alt="" coords="588,252,832,277"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="521,204,541,212,565,225,589,237,633,249,631,254,587,242,563,229,539,216,519,209"/>
+<area shape="rect" id="Node000011" href="$classxmlpp_1_1TextNode.html" title="Text node." alt="" coords="644,301,776,327"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="534,207,542,212,559,231,566,252,573,271,590,288,616,301,644,308,643,313,614,306,586,292,569,273,561,253,554,234,538,216,531,211"/>
+</map>
