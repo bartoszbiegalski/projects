@@ -1,0 +1,7 @@
+/home/bartek/Documents/projects/gmlserializer/build/CMakeFiles/gmlserializer.dir
+/home/bartek/Documents/projects/gmlserializer/build/CMakeFiles/edit_cache.dir
+/home/bartek/Documents/projects/gmlserializer/build/CMakeFiles/rebuild_cache.dir
+/home/bartek/Documents/projects/gmlserializer/build/CMakeFiles/list_install_components.dir
+/home/bartek/Documents/projects/gmlserializer/build/CMakeFiles/install.dir
+/home/bartek/Documents/projects/gmlserializer/build/CMakeFiles/install/local.dir
+/home/bartek/Documents/projects/gmlserializer/build/CMakeFiles/install/strip.dir
