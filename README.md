@@ -16,6 +16,6 @@ My own program for cutting one, long mp3 file into shorter ones. One can choose 
 
 Project made in coproduction with MJankoo. Functional board go game, gamemodes: player vs PC, player vs player. Made in Java.
 
-##
+## schemaRelations
 
 Single Perl script responsible for fetching references from and to an object in .XSD (XML Schema Definition)
