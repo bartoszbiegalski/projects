@@ -1,0 +1,233 @@
+{
+   "EGB_JednostkaEwidencyjna" : [
+      {
+         "type" : ":EGB_JednostkaEwidencyjnaType",
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_OgolnyObiekt"
+      }
+   ],
+   "EGB_IdentyfikatorIIP" : [
+      {
+         "type" : ":EGB_IdentyfikatorIIPType",
+         "substitutionGroup" : "gml:AbstractObject",
+         "referencesTo" : []
+      }
+   ],
+   "EGB_AdresPodmiotu" : [
+      {
+         "type" : ":EGB_AdresPodmiotuType",
+         "substitutionGroup" : ":EGB_OgolnyObiekt",
+         "referencesTo" : []
+      }
+   ],
+   "EGB_JednostkaRejestrowa" : [
+      {
+         "type" : ":EGB_JednostkaRejestrowaType",
+         "substitutionGroup" : ":EGB_OgolnyObiekt",
+         "referencesTo" : []
+      }
+   ],
+   "EGB_Malzenstwo" : [
+      {
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_Podmiot",
+         "type" : ":EGB_MalzenstwoType"
+      }
+   ],
+   "EGB_OsobaFizyczna" : [
+      {
+         "type" : ":EGB_OsobaFizycznaType",
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_Podmiot"
+      }
+   ],
+   "EGB_JednostkaRejestrowaGruntow" : [
+      {
+         "substitutionGroup" : ":EGB_JednostkaRejestrowa",
+         "referencesTo" : [],
+         "type" : ":EGB_JednostkaRejestrowaGruntowType"
+      }
+   ],
+   "EGB_OperatTechniczny" : [
+      {
+         "referencesTo" : [],
+         "substitutionGroup" : "gml:AbstractFeature",
+         "type" : ":EGB_OperatTechnicznyType"
+      }
+   ],
+   "EGB_Klasouzytek" : [
+      {
+         "referencesTo" : [],
+         "substitutionGroup" : "gml:AbstractObject",
+         "type" : ":EGB_KlasouzytekType"
+      }
+   ],
+   "EGB_LokalSamodzielny" : [
+      {
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_OgolnyObiekt",
+         "type" : ":EGB_LokalSamodzielnyType"
+      }
+   ],
+   "EGB_BlokBudynku" : [
+      {
+         "type" : ":EGB_BlokBudynkuType",
+         "substitutionGroup" : ":EGB_OgolnyObiekt",
+         "referencesTo" : []
+      }
+   ],
+   "EGB_Dokument" : [
+      {
+         "referencesTo" : [],
+         "substitutionGroup" : "gml:AbstractFeature",
+         "type" : ":EGB_DokumentType"
+      }
+   ],
+   "EGB_Instytucja" : [
+      {
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_Podmiot",
+         "type" : ":EGB_InstytucjaType"
+      }
+   ],
+   "EGB_UdzialWeWladaniu" : [
+      {
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_OgolnyObiekt",
+         "type" : ":EGB_UdzialWeWladaniuType"
+      }
+   ],
+   "EGB_PomieszczeniePrzynalezneDoLokalu" : [
+      {
+         "type" : ":EGB_PomieszczeniePrzynalezneDoLokaluType",
+         "substitutionGroup" : ":EGB_OgolnyObiekt",
+         "referencesTo" : []
+      }
+   ],
+   "EGB_Podmiot" : [
+      {
+         "type" : ":EGB_PodmiotType",
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_OgolnyObiekt"
+      }
+   ],
+   "EGB_ObiektTrwaleZwiazanyZBudynkiem" : [
+      {
+         "type" : ":EGB_ObiektTrwaleZwiazanyZBudynkiemType",
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_OgolnyObiekt"
+      }
+   ],
+   "EGB_JednostkaRejestrowaLokali" : [
+      {
+         "type" : ":EGB_JednostkaRejestrowaLokaliType",
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_JednostkaRejestrowa"
+      }
+   ],
+   "EGB_AdresNieruchomosci" : [
+      {
+         "type" : ":EGB_AdresNieruchomosciType",
+         "substitutionGroup" : ":EGB_OgolnyObiekt",
+         "referencesTo" : []
+      }
+   ],
+   "Etykieta" : [
+      {
+         "referencesTo" : [],
+         "substitutionGroup" : "gml:AbstractObject",
+         "type" : ":EtykietaType"
+      }
+   ],
+   "EGB_PodmiotGrupowy" : [
+      {
+         "type" : ":EGB_PodmiotGrupowyType",
+         "substitutionGroup" : ":EGB_Podmiot",
+         "referencesTo" : []
+      }
+   ],
+   "EGB_KonturKlasyfikacyjny" : [
+      {
+         "type" : ":EGB_KonturKlasyfikacyjnyType",
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_OgolnyObiekt"
+      }
+   ],
+   "EGB_OgolnyObiekt" : [
+      {
+         "type" : ":EGB_OgolnyObiektType",
+         "referencesTo" : [],
+         "substitutionGroup" : "gml:AbstractFeature"
+      }
+   ],
+   "EGB_ObrebEwidencyjny" : [
+      {
+         "type" : ":EGB_ObrebEwidencyjnyType",
+         "substitutionGroup" : ":EGB_OgolnyObiekt",
+         "referencesTo" : []
+      }
+   ],
+   "EGB_PunktGraniczny" : [
+      {
+         "type" : ":EGB_PunktGranicznyType",
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_OgolnyObiekt"
+      }
+   ],
+   "EGB_Zmiana" : [
+      {
+         "substitutionGroup" : "gml:AbstractFeature",
+         "referencesTo" : [],
+         "type" : ":EGB_ZmianaType"
+      }
+   ],
+   "EGB_KonturUzytkuGruntowego" : [
+      {
+         "type" : ":EGB_KonturUzytkuGruntowegoType",
+         "substitutionGroup" : ":EGB_OgolnyObiekt",
+         "referencesTo" : []
+      }
+   ],
+   "EGB_DzialkaEwidencyjna" : [
+      {
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_OgolnyObiekt",
+         "type" : ":EGB_DzialkaEwidencyjnaType"
+      }
+   ],
+   "EGB_UdzialWeWlasnosci" : [
+      {
+         "type" : ":EGB_UdzialWeWlasnosciType",
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_OgolnyObiekt"
+      }
+   ],
+   "EGB_Budynek" : [
+      {
+         "type" : ":EGB_BudynekType",
+         "referencesTo" : [],
+         "substitutionGroup" : ":EGB_OgolnyObiekt"
+      }
+   ],
+   "EGB_JednostkaRejestrowaBudynkow" : [
+      {
+         "type" : ":EGB_JednostkaRejestrowaBudynkowType",
+         "substitutionGroup" : ":EGB_JednostkaRejestrowa",
+         "referencesTo" : []
+      }
+   ],
+   "PrezentacjaGraficzna" : [
+      {
+         "substitutionGroup" : "gml:AbstractFeature",
+         "referencesTo" : [],
+         "type" : ":PrezentacjaGraficznaType"
+      }
+   ],
+   "EGB_WspolnotaGruntowa" : [
+      {
+         "type" : ":EGB_WspolnotaGruntowaType",
+         "substitutionGroup" : ":EGB_Podmiot",
+         "referencesTo" : []
+      }
+   ]
+}
