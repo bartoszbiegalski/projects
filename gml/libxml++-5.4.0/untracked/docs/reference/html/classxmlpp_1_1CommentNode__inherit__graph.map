@@ -1,9 +1,0 @@
-<map id="xmlpp::CommentNode" name="xmlpp::CommentNode">
-<area shape="rect" id="Node000001" title="Comment node." alt="" coords="5,225,175,251"/>
-<area shape="rect" id="Node000002" href="$classxmlpp_1_1ContentNode.html" title="Content node." alt="" coords="12,152,168,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,191,93,225,87,225,87,191"/>
-<area shape="rect" id="Node000003" href="$classxmlpp_1_1Node.html" title="Represents XML Nodes." alt="" coords="37,79,143,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,118,93,152,87,152,87,118"/>
-<area shape="rect" id="Node000004" href="$classxmlpp_1_1NonCopyable.html" title="A base for classes which cannot be copied or moved." alt="" coords="11,5,169,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="93,44,93,79,87,79,87,44"/>
-</map>

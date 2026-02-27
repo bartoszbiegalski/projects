@@ -1,7 +1,0 @@
-<map id="xmlpp::XIncludeEnd" name="xmlpp::XIncludeEnd">
-<area shape="rect" id="Node000001" title="XIncludeEnd node." alt="" coords="9,152,160,177"/>
-<area shape="rect" id="Node000002" href="$classxmlpp_1_1Node.html" title="Represents XML Nodes." alt="" coords="32,79,137,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,118,87,152,82,152,82,118"/>
-<area shape="rect" id="Node000003" href="$classxmlpp_1_1NonCopyable.html" title="A base for classes which cannot be copied or moved." alt="" coords="5,5,164,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,44,87,79,82,79,82,44"/>
-</map>
